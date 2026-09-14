@@ -10,9 +10,11 @@ We serve as an **umbrella for open-source projects, integrations, and collaborat
 
 ## 🚀 Current Work
 
+🔵 Planned &nbsp;&nbsp; 🟡 In progress &nbsp;&nbsp; 🟢 Available now
+
 | Initiative | Status |
 |---|---|
-| [EtherNet/IP OpenTelemetry Collector Receiver](https://github.com/otel-industrial/otel-industrial-resources/pull/5) | 🟡 In development, in this repo |
+| [EtherNet/IP OpenTelemetry Collector Receiver](https://github.com/otel-industrial/otel-industrial-resources/tree/main/otel-industrial-collector/receiver/ethernetipreceiver) | 🟢 Experimental, in this org |
 | [Modbus OpenTelemetry Collector Receiver](https://github.com/lukaszciukaj/modbusreceiver) | 🟢 External project |
 | [OPC UA OpenTelemetry Collector Receiver](https://github.com/bruegth/opentelemetry-collector-opcua-receiver) | 🟢 External project, alpha (logs only) |
 | [MQTT / Sparkplug B Integration](https://github.com/jmacd/opentelemetry-mqtt-sparkplug) | 🟢 External project |
