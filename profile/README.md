@@ -44,7 +44,7 @@ For community meetings, discussions, and collaboration resources, see [otel-indu
 
 ## 🤝 Community
 
-- Active in the CNCF `#otel-industrial` Slack channel (77 members as of 9/10/2026)
+- Active in the CNCF `#otel-industrial` Slack channel (92 members as of 9/28/2026)
 - Public roadmap, issues, and pull requests — all discussion happens in the open
 - Contributors from end users, vendors, integrators, and the broader OpenTelemetry ecosystem
 - Meeting notes and collaboration resources tracked in [otel-industrial-community](https://github.com/otel-industrial/otel-industrial-community)
