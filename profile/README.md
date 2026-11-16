@@ -8,19 +8,21 @@ We serve as an **umbrella for open-source projects, integrations, and collaborat
 
 > ⚠️ OpenTelemetry Industrial is an independent community initiative and is not an official OpenTelemetry project, SIG, working group, or CNCF organization.
 
+📦 **Latest release:** [v0.1.0](https://github.com/otel-industrial/otel-industrial-resources/releases/tag/v0.1.0) (November 2026): the OpenTelemetry Industrial Collector distributions and the Modbus and EtherNet/IP receivers, versioned together.
+
 ## 🚀 Current Work
 
 🔵 Planned &nbsp;&nbsp; 🟡 In progress &nbsp;&nbsp; 🟢 Available now
 
 | Initiative | Status |
 |---|---|
-| [EtherNet/IP OpenTelemetry Collector Receiver](https://github.com/otel-industrial/otel-industrial-resources/tree/main/otel-industrial-collector/receiver/ethernetipreceiver) | 🟢 Experimental, in this org |
-| [Modbus OpenTelemetry Collector Receiver](https://github.com/otel-industrial/otel-industrial-resources/tree/main/otel-industrial-collector/receiver/modbusreceiver) | 🟢 Experimental, in this org |
+| [EtherNet/IP OpenTelemetry Collector Receiver](https://github.com/otel-industrial/otel-industrial-resources/tree/main/otel-industrial-collector/receiver/ethernetipreceiver) | 🟢 Experimental, [v0.1.0](https://github.com/otel-industrial/otel-industrial-resources/releases/tag/v0.1.0) |
+| [Modbus OpenTelemetry Collector Receiver](https://github.com/otel-industrial/otel-industrial-resources/tree/main/otel-industrial-collector/receiver/modbusreceiver) | 🟢 Experimental, [v0.1.0](https://github.com/otel-industrial/otel-industrial-resources/releases/tag/v0.1.0) |
 | [OPC UA OpenTelemetry Collector Receiver](https://github.com/bruegth/opentelemetry-collector-opcua-receiver) | 🟢 External project, alpha (logs only) |
 | [MQTT / Sparkplug B Integration](https://github.com/jmacd/opentelemetry-mqtt-sparkplug) | 🟢 External project |
-| [OpenTelemetry Industrial Collector](https://github.com/otel-industrial/otel-industrial-resources/pull/17) | 🟡 In progress |
+| [OpenTelemetry Industrial Collector](https://github.com/otel-industrial/otel-industrial-resources/tree/main/otel-industrial-collector/manifests) | 🟢 Experimental, [v0.1.0](https://github.com/otel-industrial/otel-industrial-resources/releases/tag/v0.1.0): five distributions, linux/amd64 + arm64 |
 | Industrial Semantic Conventions | 🔵 Roadmap |
-| Industrial Testing & Validation | 🟡 Early discussion |
+| [Industrial Testing & Validation](https://github.com/otel-industrial/otel-industrial-resources/issues/53) | 🟡 In progress: end-to-end demo with simulated devices, planned for Dec 15 |
 
 Some of these are developed directly by contributors to this initiative; others are **independent open-source projects** maintained by their own communities and referenced here for discoverability. Status labels reflect where things stand as of this writing and may lag reality — check the linked issue, PR, or project repo for the current state.
 
@@ -44,7 +46,7 @@ For community meetings, discussions, and collaboration resources, see [otel-indu
 
 ## 🤝 Community
 
-- Active in the CNCF `#otel-industrial` Slack channel (97 members as of 10/15/2026)
+- Active in the CNCF `#otel-industrial` Slack channel (100 members as of 11/16/2026)
 - Public roadmap, issues, and pull requests — all discussion happens in the open
 - Contributors from end users, vendors, integrators, and the broader OpenTelemetry ecosystem
 - Meeting notes and collaboration resources tracked in [otel-industrial-community](https://github.com/otel-industrial/otel-industrial-community)
@@ -56,9 +58,12 @@ We welcome industrial end users, manufacturers, systems integrators, OpenTelemet
 - Join us on CNCF Slack: **#otel-industrial**
 - Review [open issues in otel-industrial-resources](https://github.com/otel-industrial/otel-industrial-resources/issues)
 - Explore the [roadmap](https://github.com/orgs/otel-industrial/projects/1)
-- Try out an existing integration and share what you find
+- Try the [v0.1.0 release](https://github.com/otel-industrial/otel-industrial-resources/releases/tag/v0.1.0) or another integration and share what you find
 - Share your use cases and implementation experience
 - Contribute code, documentation, or point us to an existing project we should catalog
+
+> [!NOTE]
+> Everything here is experimental and not yet validated against real hardware. Use a lab or non-production environment only.
 
 ---
 
